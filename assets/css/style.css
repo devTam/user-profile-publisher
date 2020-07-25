@@ -8,6 +8,221 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main {
+  padding: 0 30px;
+}
+
+.info {
+  margin-top: 60px;
+}
+
+.info-top-heading {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #333333;
+}
+
+.info-box {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.info-box-img {
+  position: relative;
+  padding-top: 40px;
+  margin-bottom: 0 !important;
+}
+
+.info-box-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.info-box-img #upload-img {
+  opacity: 0;
+  height: 150px;
+  cursor: pointer;
+}
+
+.info-box-text label {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #333333;
+}
+
+.info ::-webkit-input-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #000000 !important;
+}
+
+.info :-ms-input-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #000000 !important;
+}
+
+.info ::-ms-input-placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #000000 !important;
+}
+
+.info ::placeholder {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #000000 !important;
+}
+
+.btn-update {
+  background-color: #0075FF;
+  border-radius: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  padding: 6px 25px;
+}
+
+.btn-update:hover {
+  background-color: #0052B3;
+  color: #fff;
+}
+
+.address {
+  margin-top: 60px;
+}
+
+.address-top-heading {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #333333;
+}
+
+.address-box {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding-top: 60px;
+}
+
+.address-box-text label {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #333333;
+}
+
+.address ::-webkit-input-placeholder, .address-option, .address-select {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #333333 !important;
+}
+
+.address :-ms-input-placeholder, .address-option, .address-select {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #333333 !important;
+}
+
+.address ::-ms-input-placeholder, .address-option, .address-select {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #333333 !important;
+}
+
+.address ::placeholder, .address-option, .address-select {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #333333 !important;
+}
+
+.profile {
+  margin-top: 60px;
+}
+
+.profile-top-heading {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #333333;
+}
+
+.profile-box {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding-top: 60px;
+}
+
+.profile-box-text label {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #333333;
 }
 /*# sourceMappingURL=style.css.map */
