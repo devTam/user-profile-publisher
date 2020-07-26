@@ -281,4 +281,40 @@ body {
   margin-bottom: 0;
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 576px) {
+  .mobile-padding {
+    padding-top: 8px;
+  }
+  .info-top-heading,
+  .address-top-heading,
+  .profile-top-heading,
+  .tags-top-heading {
+    font-size: 18px;
+  }
+  .info-box-text label,
+  .address-box-text label,
+  .profile-box-text label,
+  ::-webkit-input-placeholder {
+    font-size: 16px !important;
+  }
+  .info-box-text label,
+  .address-box-text label,
+  .profile-box-text label,
+  :-ms-input-placeholder {
+    font-size: 16px !important;
+  }
+  .info-box-text label,
+  .address-box-text label,
+  .profile-box-text label,
+  ::-ms-input-placeholder {
+    font-size: 16px !important;
+  }
+  .info-box-text label,
+  .address-box-text label,
+  .profile-box-text label,
+  ::placeholder {
+    font-size: 16px !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */

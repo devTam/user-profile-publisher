@@ -242,3 +242,24 @@ body {
   }
 
 }
+
+
+@media only screen and (max-width: 576px) {
+  .mobile-padding {
+    padding-top: 8px;
+  }
+
+  .info-top-heading,
+  .address-top-heading,
+  .profile-top-heading,
+  .tags-top-heading {
+    font-size: 18px;
+  }
+
+  .info-box-text label,
+  .address-box-text label,
+  .profile-box-text label,
+  ::placeholder {
+    font-size: 16px !important;
+  }
+}
