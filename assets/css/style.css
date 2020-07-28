@@ -39,7 +39,7 @@ body {
 
 .info-box-img {
   position: relative;
-  padding-top: 40px;
+  padding-bottom: 20px;
   margin-bottom: 0 !important;
 }
 
@@ -52,9 +52,14 @@ body {
 }
 
 .info-box-img #upload-img {
-  opacity: 0;
-  height: 150px;
+  opacity: 1;
+  height: 100px;
+  width: 100px;
   cursor: pointer;
+  border-radius: 50%;
+  background-image: url("/assets/images/PROFILE PHOTO.png");
+  background-size: contain;
+  font-size: 0;
 }
 
 .info-box-text label {
@@ -108,12 +113,12 @@ body {
 }
 
 .btn-update {
-  background-color: #0075FF;
+  background-color: #362F74;
   border-radius: 5px;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.2px;
   color: #FFFFFF;
@@ -317,11 +322,11 @@ body {
     font-size: 16px !important;
   }
   .mobile-upload {
-    background-color: #0075FF;
+    background-color: #362F74;
     border-radius: 0px 0px 10px 10px;
   }
   .header-form__input {
-    background-color: #0075FF;
+    background-color: #362F74;
   }
   .info-box, .address-box, .profile-box {
     padding-top: 20px;
