@@ -246,6 +246,11 @@ body {
 
 }
 
+// FIX FORM GROUP SPACING
+.form-group {
+  margin-bottom: 1.8rem;
+}
+
 
 @media only screen and (max-width: 576px) {
   .mobile-padding {
