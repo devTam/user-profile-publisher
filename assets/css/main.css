@@ -225,7 +225,7 @@ body {
   content: "";
   display: block;
   width: 80px;
-  bottom: 10px;
+  /* bottom: 10px; */
   position: absolute;
   border-bottom: 4px solid #362f74;
 }
