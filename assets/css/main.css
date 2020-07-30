@@ -1,6 +1,6 @@
 :root {
   --sideBar-primary-color: #b9b9b9;
-  --sideBar-secondary-color: #e5e5e5;
+  --sideBar-secondary-color: #F5F6FA;
   --sideBar-active: #362f74;  
 }
 
@@ -170,7 +170,7 @@ body {
   .main-content {
     margin-left: 200px;
     height: auto;
-    background-color: #e5e5e5;
+    background-color: #F5F6FA;
   }
 
   .collapse-sidebar {
