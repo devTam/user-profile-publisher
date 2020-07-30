@@ -57,6 +57,10 @@ body {
         background-image: url('/assets/images/PROFILE\ PHOTO.png');
         background-size: contain;
         font-size: 0;
+
+        &:focus {
+          outline: none;
+        }
       }
     }
 
@@ -75,15 +79,15 @@ body {
   }
 }
 
-.info ::placeholder {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
-  letter-spacing: 0.2px;
-  color: #000000 !important;
-}
+// .info ::placeholder {
+//   font-family: 'Source Sans Pro', sans-serif;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 20px;
+//   line-height: 32px;
+//   letter-spacing: 0.2px;
+//   color: #000000 !important;
+// }
 
 .btn-update {
   background-color:  #362F74;
@@ -144,15 +148,15 @@ body {
   }
 }
 
-.address ::placeholder, .address-option, .address-select {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
-  letter-spacing: 0.2px;
-  color: #333333 !important;
-}
+// .address ::placeholder, .address-option, .address-select {
+//   font-family: 'Source Sans Pro', sans-serif;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 20px;
+//   line-height: 32px;
+//   letter-spacing: 0.2px;
+//   color: #333333 !important;
+// }
 
 // LINKED PROFILE STYLES
 
